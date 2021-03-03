@@ -1,10 +1,13 @@
 import React from "react";
+import AppLayout from "../container/AppLayout/index";
 
 const KakaoMain = ({ Component }) => {
   console.log(Component);
   return (
     <>
-      <Component />
+      <AppLayout>
+        <Component />
+      </AppLayout>
     </>
   );
 };
